@@ -1,0 +1,22 @@
+{
+  "domain": "flaktgroup",
+  "name": "FläktGroup",
+  "categories": [
+    "climate.fans_ventilation"
+  ],
+  "codeowners": [
+    "@volodymyrpavlenko"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/volodymyrpavlenko/ha-flaktgroup",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/volodymyrpavlenko/ha-flaktgroup/issues",
+  "loggers": [
+    "pymodbus"
+  ],
+  "requirements": [
+    "pymodbus>=3.13.1"
+  ],
+  "version": "0.1.0"
+}
