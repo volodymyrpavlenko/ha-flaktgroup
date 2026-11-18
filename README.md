@@ -24,7 +24,11 @@ Monitor and control your **FläktGroup RDKS** ventilation unit from Home Assista
 
 ### Marketplace
 
-Marketplace installation will be available once the repository is published on public GitHub. In **Settings → Marketplace → Add from link**, enter the public repository URL, then open the FläktGroup listing and select **Install**. [Home Assistant Marketplace guide](https://www.home-assistant.io/integrations/marketplace/#custom-repositories)
+Once the first release is published, open the repository in your Home Assistant Marketplace and select **Install**.
+
+[![Open FläktGroup in Home Assistant Marketplace](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=volodymyrpavlenko&repository=ha-flaktgroup&category=integration)
+
+You can also use **Settings → Marketplace → Add from link**, enter `volodymyrpavlenko/ha-flaktgroup`, then open the listing and select **Install**. [Home Assistant Marketplace guide](https://www.home-assistant.io/integrations/marketplace/#custom-repositories)
 
 ## Configuration
 
@@ -87,7 +91,7 @@ actions:
 - **An individual entity is missing or unavailable.** Check whether the entity is enabled and whether your unit exposes its register. Optional registers can vary across units.
 - **A settings save fails.** The integration stops the group update on the first failed write and rereads the settings. Review the displayed values before retrying, since earlier writes may already have reached the unit.
 
-For a bug report, include your Home Assistant version, integration version or commit, RDKS model and firmware if known, the steps to reproduce, and any `flaktgroup` or `pymodbus` messages from **Settings → System → Logs**. [Report an issue](https://gitlab.com/volodymyrpavlenko/ha-flaktgroup/-/issues)
+For a bug report, include your Home Assistant version, integration version or commit, RDKS model and firmware if known, the steps to reproduce, and any `flaktgroup` or `pymodbus` messages from **Settings → System → Logs**. [Report an issue](https://github.com/volodymyrpavlenko/ha-flaktgroup/issues)
 
 ## Contributing
 

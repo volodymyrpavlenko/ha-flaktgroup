@@ -40,7 +40,7 @@ Report which checks ran against hardware in the pull request.
 
 1. Run the local checks and the hardware smoke test. Ensure the GitHub Actions for tests, hassfest, and Marketplace validation pass.
 2. Match the integration manifest version to the release tag. Update the Marketplace minimum in `hacs.json` when the compatibility floor changes.
-3. On first publication, make the GitHub repository public, enable Issues, add a description and topics, and point the manifest documentation and issue links at GitHub.
+3. Keep the GitHub repository public, with Issues enabled, a description, and topics. Verify that the manifest documentation and issue links point to this repository.
 4. Prepare a GitHub release draft with user-facing changes and any upgrade steps. Publish it after validation. Marketplace can install the integration from the tagged repository layout.
 5. Verify installation through **Settings → Marketplace → Add from link**. Submit the repository to the catalog when ready. [Marketplace catalog guide](https://contributors.home-assistant.io/marketplace/guides/catalog/)
 
