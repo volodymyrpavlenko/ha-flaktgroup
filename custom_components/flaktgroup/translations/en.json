@@ -194,7 +194,7 @@
       "defrost_air": {
         "name": "Defrost Air"
       },
-      "CO2": {
+      "co2": {
         "name": "Carbon Dioxide"
       },
       "humidity_1": {
